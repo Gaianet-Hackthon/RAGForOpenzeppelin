@@ -59,7 +59,7 @@ The next step is to crawl OpenZeppelin's official documentation and generate mar
 
   After running the command, you will get the OpenZeppelin documentation in markdown format.
 
-### 3. Convert Markdown to Snapshot
+### 3. Convert Markdown to [Snapshot](https://docs.gaianet.ai/creator-guide/knowledge/markdown)
 
 Once you have the markdown files from Firecrawl, you need to convert them into a vector collection snapshot:
 
