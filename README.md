@@ -71,7 +71,7 @@ wasmedge --dir .:. \
 
 This command creates the vector embedding snapshot of the crawled OpenZeppelin documentation.
 
-### 4. Customize Node Configuration
+### 4. [Customize Node Configuration](https://docs.gaianet.ai/node-guide/customize)
 
 In the next step, customize your GaiaNet node to include the snapshot you generated in the previous step as part of the knowledge base. Add the snapshot to your node configuration so it can be used by the LLM for retrieval.
 
