@@ -2,6 +2,9 @@
 
 This project leverages **GaiaNet** to build a **Retrieval Augmented Generation (RAG)**-based Large Language Model (LLM) agent for OpenZeppelin, a widely used smart contract library. 
 
+
+You can access this project through link [https://0x1a955e36edabbeab1498c05a3324423fcd60c07f.us.gaianet.network](https://0x1a955e36edabbeab1498c05a3324423fcd60c07f.us.gaianet.network)
+
 **Retrieval Augmented Generation (RAG)** is a framework designed to mitigate the hallucination problem of LLMs by integrating external resources, enabling the personalization of LLM agents based on domain-specific knowledge. The project setup involves the following components:
 
 - A regular LLM
