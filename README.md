@@ -33,7 +33,7 @@ GaiaNet offers several advantages for building and deploying LLM agents:
 ### 1. Set up a GaiaNet Node
 To start, you will need to set up a GaiaNet node on your local machine or server. You can follow the official [Quick start with GaiaNet Node](https://docs.gaianet.ai/node-guide/quick-start) to get started.
 
-### 2. Crawl OpenZeppelin Data Using Firecrawl
+### 2. Crawl OpenZeppelin Data Using [Firecrawl](https://www.firecrawl.dev/)
 
 The next step is to crawl OpenZeppelin's official documentation and generate markdown files. We use the open-source project **Firecrawl** for this purpose:
 
