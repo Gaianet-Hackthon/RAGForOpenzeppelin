@@ -74,6 +74,22 @@ This command creates the vector embedding snapshot of the crawled OpenZeppelin d
 ### 4. [Customize Node Configuration](https://docs.gaianet.ai/node-guide/customize)
 
 In the next step, customize your GaiaNet node to include the snapshot you generated in the previous step as part of the knowledge base. Add the snapshot to your node configuration so it can be used by the LLM for retrieval.
+```
+gaianet config \
+  --rag-policy last-user-message \
+  --embedding-batch-size 8192 \
+  --chat-url https://huggingface.co/gaianet/gemma-2-9b-it-GGUF/blob/main/gemma-2-9b-it-Q5_K_M.gguf \
+  --chat-ctx-size 4096 \
+  --prompt-template gemma-instruct
+
+
+
+gaianet config \
+  --snapshot https://huggingface.co/datasets/Leon2470/RAG/resolve/main/OpenZeppelin-8962106312010627-2024-09-29-16-01-15.snapshot \
+  --system-prompt "You are a helpful, respectful, and honest Openzeppelin assistant, You're an expert in Smart Contract development and Solidity programming language and you always answer questions with warm." \
+  --rag-prompt "You're an expert in Smart Contract development and Solidity programming language. Use the following pieces of context to answer the user's question.\n"
+
+```
 
 ### 5. Validate the Model
 
